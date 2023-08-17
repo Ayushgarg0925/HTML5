@@ -1,0 +1,96 @@
+   * {
+       margin: 0px;
+       padding: 0px;
+   }
+
+   .reover {
+       border: 1px solid black;
+       border-radius: 20px;
+       margin: 40px;
+       padding: 20px;
+       resize: both;
+       overflow: auto;
+       background-color: rgb(243, 243, 245)
+   }
+
+   body {
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-image: radial-gradient(circle, rgb(255, 255, 255), rgb(73, 73, 122), rgb(255, 255, 255), rgb(184, 184, 203), rgb(243, 243, 245), rgb(255, 255, 255), rgb(73, 73, 122), rgb(255, 255, 255), rgb(184, 184, 203), rgb(243, 243, 245), rgb(255, 255, 255), rgb(73, 73, 122), rgb(255, 255, 255), rgb(184, 184, 203), rgb(243, 243, 245), rgb(255, 255, 255), rgb(73, 73, 122), rgb(255, 255, 255), rgb(184, 184, 203), rgb(243, 243, 245), rgb(255, 255, 255), rgb(73, 73, 122), rgb(255, 255, 255), rgb(184, 184, 203), rgb(243, 243, 245), rgb(255, 255, 255), rgb(73, 73, 122), rgb(255, 255, 255), rgb(184, 184, 203), rgb(243, 243, 245)50%);
+   }
+
+   .i1 {
+       /* margin: 20px; */
+       height: 300px;
+       width: 600px;
+       border: 1px solid black;
+       border-radius: 20px;
+       margin: 40px;
+   }
+
+   .i2 {
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .fl {
+       display: flex;
+       margin: 40px;
+   }
+
+   .overflow-1 {
+       margin: 0px 40px;
+       padding: 15px;
+       width: auto;
+       height: 300px;
+       overflow: scroll;
+       border: 1px solid #000000;
+       border-radius: 20px 20px 0px 0px;
+       background-color: rgb(243, 243, 245);
+
+   }
+
+   .navstl {
+       background-color: #000;
+
+   }
+
+   .navstl2 {
+       color: white;
+   }
+
+   .inln1 {
+       display: inline-table;
+       margin: 40px;
+       background-color: rgb(243, 243, 245);
+   }
+
+   img {
+       float: right;
+   }
+
+   table,
+   tr,
+   th,
+   td {
+       border: 1px solid black;
+       height: 30px;
+       width: 600px;
+   }
+
+   .nav1 {
+       text-decoration: none;
+       color: rgb(255, 255, 255);
+       margin-left: 15px;
+   }
+
+   .pnav1div {
+       background-color: black;
+       width: auto;
+       height: auto;
+       padding: 13px 40px 10px 20px;
+       display: flex;
+       justify-content: space-between;
+       font-size: 18px;
+
+   }
